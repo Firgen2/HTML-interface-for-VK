@@ -1,0 +1,55 @@
+button {
+	padding: 0;
+	border: none;
+	font: inherit;
+	color: inherit;
+	display: block;
+	background-color: transparent;
+	cursor: pointer;
+  }
+body {
+	background: linear-gradient(to bottom, #ffffff, #bbbbbb);
+	margin: 0;
+	padding: 0;
+	color: #000000;
+  }* 
+  {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+  }
+  
+  html, body {
+	height: 100%;
+  }
+  
+  .container {
+	min-height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  }
+  
+  .content {
+	text-align: center;
+  }
+  
+  h1 {
+	font-size: 36px;
+	margin-bottom: 40px;
+  }
+  
+  .button_vk {
+	display: inline-block;
+	background-color: rgb(29, 155, 240);
+	color: #000000;
+	font-size: 20px;
+	padding: 15px 30px;
+	border-radius: 50px;
+	text-decoration: none;
+	transition: background-color 0.2s ease;
+  }
+  .button_vk:hover {
+	background-color: rgb(29, 155, 240, 0.9);
+  }
+  
